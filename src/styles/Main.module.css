@@ -1,0 +1,21 @@
+/* Main component */
+main {
+	background-image: url(../img/main_bg.jpg);
+	height: 100vh;
+	background-size: cover;
+}
+.mainBase {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #1414149d;
+	height: 100vh;
+}
+/* intro component */
+.intro {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	color: white;
+}

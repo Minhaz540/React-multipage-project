@@ -1,0 +1,71 @@
+/* brand component */
+.brand {
+	display: flex;
+	align-items: center;
+	color: white;
+	font-weight: bold;
+	gap: 20px;
+}
+.brand img {
+	width: 40px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+.links {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+@media only screen and (max-width: 644px) {
+	.second {
+		display: none;
+	}
+}
+/* menu component */
+.menu {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-self: flex-start;
+}
+.menu span {
+	font-size: 30px;
+	cursor: pointer;
+}
+.dropDown {
+	list-style: none;
+	position: absolute;
+	top: 30px;
+	background-color: #1a6cf0;
+	width: 100px;
+	box-shadow: 2px 2px 3px rgb(36, 36, 36);
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	display: none;
+}
+.dropDown a li {
+	padding: 10px;
+	color: white;
+	margin: 5px;
+	border-bottom: 1px solid rgb(156, 149, 149);
+}
+.dropDown a:last-child li {
+	border-bottom: none;
+}
+.dropDown a li:hover {
+	color: rgb(126, 126, 226);
+}
+.menu:hover .dropDown {
+	display: block;
+}

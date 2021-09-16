@@ -1,0 +1,15 @@
+/* side component */
+.side {
+	background-color: rgb(61, 40, 100);
+	color: white;
+	padding: 20px;
+}
+ol {
+	margin: 30px 30px;
+	font-size: 20px;
+}
+@media only screen and (max-width: 586px) {
+	.describeInfo {
+		flex-direction: column;
+	}
+}

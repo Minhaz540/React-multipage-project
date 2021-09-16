@@ -1,0 +1,24 @@
+/* short info component */
+.shortInfo {
+	display: flex;
+	gap: 40px;
+	margin: 20px;
+	padding: 10px;
+	background-color: #00acff;
+}
+.pic {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+/* littleInfo component */
+.littleInfo {
+	color: whitesmoke;
+}
+.littleInfo p {
+	padding: 15px 0px;
+}

@@ -1,0 +1,8 @@
+/* describeInfo component */
+.describeInfo {
+	padding: 20px;
+	background-color: aqua;
+	margin: 20px;
+	display: flex;
+	justify-content: space-evenly;
+}
