@@ -1,0 +1,21 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    padding: 15px;
+    margin: 20px;
+}
+/* form component */
+.form {
+    padding: 30px 0px;
+    min-width: 430px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.sentBtn {
+    display: flex;
+    justify-content: center;
+}

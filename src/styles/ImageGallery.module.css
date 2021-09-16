@@ -1,0 +1,26 @@
+/* image gallery */
+.imageGallery {
+	margin: 0px 20px 20px 20px;
+	padding: 15px;
+	background-color: aquamarine;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	gap: 5px;
+	grid-auto-flow: dense;
+}
+.imageGallery img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.small {
+    grid-column: auto / span 2;
+}
+.medium {
+    grid-column: auto / span 2;
+    grid-column: auto / span 2;
+}
+.big {
+    grid-row: auto / span 3;
+    grid-column: auto / span 3;
+}

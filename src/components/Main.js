@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from './Button'
 import classes from '../styles/Main.module.css'
+import { Link } from 'react-router-dom';
 
 export default function Main() {
     return (
@@ -9,9 +10,9 @@ export default function Main() {
 				<div className={classes.intro}>
 					<h1>Welcome to a</h1>
 					<h1>New Universe</h1>
-					<a href="profile.html">
+					<Link to="/profile">
 						<Button>Get started</Button>
-					</a>
+					</Link>
 				</div>
 			</div>
 		</main>
